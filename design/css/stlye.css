@@ -1,3 +1,35 @@
-body{
-  background-color: #eeeeee
+body {
+  background-color: #eeeeee;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.title {
+  position: absolute;
+  top: -20px;
+}
+
+.box:before {
+  content: '';
+  background-color: #f5f5f5;
+}
+
+.section1 {
+  background-image: url(../img/5.png);
+  background-size: cover;
+  height: 923px;
+}
+
+.section1 h2 {
+  padding-top: 441px;
+  padding-left: 691px;
+  font-weight: 400;
+  line-height: 3.0;
+}
+
+.section2 h2 {
+  padding-top: -80px;
+  padding-left: 1087px;
+  font-size: 8px;
+  font-weight: 300;
+  line-height: 1.6;
 }
